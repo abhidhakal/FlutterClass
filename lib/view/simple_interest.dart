@@ -45,6 +45,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
                     if (value == null || value.isEmpty){
                       return "Please enter a number";
                     }
+                    return null;
                   },
               ),
               SizedBox(height: 8),
@@ -65,6 +66,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
                     if (value == null || value.isEmpty){
                       return "Please enter a number";
                     }
+                    return null;
                   },
               ),
               SizedBox(height: 8),
@@ -85,6 +87,7 @@ class _SimpleInterestState extends State<SimpleInterest> {
                     if (value == null || value.isEmpty){
                       return "Please enter a number";
                     }
+                    return null;
                   },
               ),
               SizedBox(width:150,

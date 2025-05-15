@@ -1,4 +1,4 @@
-import 'package:first_program/view/layout_view.dart';
+import 'package:first_program/view/flexible_expanded_view.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -6,6 +6,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LayoutView());
+    return MaterialApp(home: FlexibleExpandedView());
   }
 }

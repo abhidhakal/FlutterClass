@@ -26,7 +26,7 @@ class _LayoutViewState extends State<LayoutView> {
               children: const [
                 Icon(Icons.call, color: Colors.teal),
                 SizedBox(height: 8),
-                Text("CALL", style: TextStyle(color: Colors.red)),
+                Text("CALL", style: TextStyle(color: Colors.black)),
               ],
             ),
             Column(
@@ -34,7 +34,7 @@ class _LayoutViewState extends State<LayoutView> {
               children: const [
                 Icon(Icons.near_me, color: Colors.teal),
                 SizedBox(height: 8),
-                Text("ROUTE", style: TextStyle(color: Colors.red)),
+                Text("ROUTE", style: TextStyle(color: Colors.black)),
               ],
             ),
             Column(
@@ -42,7 +42,7 @@ class _LayoutViewState extends State<LayoutView> {
               children: const [
                 Icon(Icons.share, color: Colors.teal),
                 SizedBox(height: 8),
-                Text("SHARE", style: TextStyle(color: Colors.red)),
+                Text("SHARE", style: TextStyle(color: Colors.black)),
               ],
             ),
           ],
